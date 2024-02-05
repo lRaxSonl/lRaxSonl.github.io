@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
+    <title>Java portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
@@ -26,23 +26,8 @@
             }
         }
 
-        .main-text-container {
-            margin: 150px 0px 0px 150px;
-        }
-
-        .main-text {
-            font-size: 35px;
-            font-family: 'Comic Sans MS, Comic Sans';
-            word-spacing: 5px;
-            letter-spacing: 1px;
-        }
-
-        .secondary-text {
-            font-size: 20px;
-            font-family: 'Bradley Hand';
-            font-style: oblique;
-            color: grey;
-            letter-spacing: 1px;
+        .card-bg-color {
+            background-color: #272c30;
         }
     </style>
 </head>
@@ -57,13 +42,13 @@
 
         <ul class="nav nav-tabs justify-content-end p-2 bd-highlight">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Main</a>
+                <a class="nav-link text-white" aria-current="page" href="index.html">Main</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-white" href="java-cards.html">Java</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="python-cards.html">Python</a>
+                <a class="nav-link active" href="python-cards.html">Python</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-white" href="#">HTML, CSS, BootStrap</a>
@@ -75,12 +60,28 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col main-text-container">
-                <div class="text-white main-text"><b>Nikita Ivkin</b></div>
-                <div class="secondary-text">Software engineer</div>
+        <div class="p-5 d-flex flex-row mb-3">
+
+            <div class="card card-bg-color" style="width: 18rem;">
+                <div class="card-body text-white">
+                    <h5 class="card-title">Voice Assistant 1</h5>
+                    <p class="card-text">A simple voice assistant, I did it as a school project.</p>
+                    <a href="https://github.com/lRaxSonl/Voice-Assistant" class="card-link">GitHub</a>
+                </div>
             </div>
+
+            <div class="card card-bg-color" style="width: 18rem;">
+                <div class="card-body text-white">
+                    <h5 class="card-title">Tron game</h5>
+                    <p class="card-text">I took a 2D game from the site - https://grantjenks.com/docs/freegames/tron.html I want to improve it,
+                         I have already made changes in the new version. To start the game,
+                         you need to install the library - freegames</p>
+                    <a href="https://github.com/lRaxSonl/TronGame" class="card-link">GitHub</a>
+                </div>
+            </div>
+
         </div>
+    </div>
     </div>
 
 
